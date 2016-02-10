@@ -1,0 +1,18 @@
+{
+  "name": "SHOTGUN",
+  "description": "check",
+  "main": "index.html",
+  "authors": [
+    "Boris"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "xb",
+    "plus"
+  ],
+  "moduleType": [],
+  "homepage": "",
+  "dependencies": {
+    "jquery": "^2.2.0"
+  }
+}

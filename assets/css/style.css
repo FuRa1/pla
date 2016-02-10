@@ -1,0 +1,16 @@
+.body {
+    font-family: Arial, sans-serif;
+}
+
+.wrapper {
+    background-color: white;
+    margin-left: -1px;
+}
+
+#myButton{
+    border-radius: 100%;
+    display: block;
+}
+.col-xs-12{
+    padding-top: 50px;
+}
