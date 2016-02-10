@@ -6,7 +6,7 @@ $(function () {
     $button.on('click', plus);
 
 
-    var idArray = [{id: 293673}, {id: 298300}, {id: 323788}, {id: 291056}, {id: 308629}, {id: 311156}, {id: 308546}, {id: 318206}, {id:332758}];
+    var idArray = [{id: 293673}, {id: 298300}, {id: 323788}, {id: 291056}, {id: 308629}, {id: 311156}, {id: 308546}, {id: 318206}, {id:332758}, {id:318902}];
 
     function redirect(index) {
 
