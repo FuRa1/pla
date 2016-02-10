@@ -18,7 +18,7 @@ $(function () {
 
         setTimeout(function () {
             window.open("http://www.x-bikers.ru/bikera/respect.php?id=" + idArray[index].id+act);
-        }, 3000 * index)
+        }, 5000 * index)
     }
 
     function plus() {
