@@ -1,5 +1,5 @@
 $(function () {
-
+    var wnd = window;
     var $button = $('#myButton');
 
     $button.on('click', plus);
@@ -17,8 +17,9 @@ $(function () {
         var act = "&act=1";
 
         setTimeout(function () {
-            window.open("http://wwkers.ru/bikera/respect.php?id=" + idArray[index].id+act);
-        }, 1000 * index)
+            var newWindo = wnd.open("http://wwkers.ru/bikera/respect.php?id=" + idArray[index].id+act, "", "width=100,height=100");
+            wnd.focus();
+        }, 3000 * index)
     }
 
     function plus() {
