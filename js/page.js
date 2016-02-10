@@ -10,7 +10,7 @@ $(function () {
         this.link = "http://www.x-bikers.ru/bikera/respect.php?id=" + this.id + "&act=1";
     }
 
-    var idArray = [{id:293673}, {id:298300}, {id:323788}, {id:291056}, {id:308629}];
+    var idArray = [{id:293673}, {id:298300}, {id:323788}, {id:291056}, {id:308629}, {id:311156}, {id:308546}, {id:318206}];
 
     function redirect(index){
         setTimeout(function () {
