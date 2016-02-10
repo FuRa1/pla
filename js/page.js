@@ -14,7 +14,9 @@ $(function () {
 
     function redirect(index){
         setTimeout(function () {
-            window.open("http://www.x-bikers.ru/bikera/respect.php?id=" + idArray[index].id + "&act=1");
+
+            console.log("http://www.x-bikers.ru/bikera/respect.php?id=" + idArray[index].id + "&act=1");
+        window.open("http://www.x-bikers.ru/bikera/respect.php?id=" + idArray[index].id + "&act=1");
         }, 3000 * index)
     }
 
