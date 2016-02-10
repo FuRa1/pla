@@ -7,10 +7,21 @@
     margin-left: -1px;
 }
 
+#frameWrapper{
+    margin-top: 3em;
+    width:80%;
+    overflow: hidden;
+}
 #myButton{
     border-radius: 100%;
     display: block;
 }
+
+#frame{
+    width: 100%;
+    height: 15em;
+
+}
 .col-xs-12{
-    padding-top: 50px;
+    margin-top: 3em;
 }
